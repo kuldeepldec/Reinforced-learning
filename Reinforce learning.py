@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 12 10:18:22 2016
 
-@author: dimira
+@author: Kuldeep
 """
 
 import numpy as np
@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 n=10  #slot machine
 arms=np.random.rand(n) #generating random number
-eps=0.5
+eps=0.1
 
 print eps
 def reward(prob): #With an arm probability of 0.7, the average reward of doing this to infinity would be 7
